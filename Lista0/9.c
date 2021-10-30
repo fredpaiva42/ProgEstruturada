@@ -5,7 +5,7 @@ desconto de 10%.
 
 # include <stdio.h>
 
-int main (void) {
+int nove (void) {
     float salario, desconto = 0.10f, salarioFinal;
 
     printf("Informe seu salario: ");
