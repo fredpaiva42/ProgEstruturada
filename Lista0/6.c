@@ -7,7 +7,7 @@ salário após o pagamento das contas.
 
 # include <stdio.h>
 
-int main (void) {
+int seis (void) {
     float salario, conta1, conta2, restante;
 
     printf("Informe seu salario: ");

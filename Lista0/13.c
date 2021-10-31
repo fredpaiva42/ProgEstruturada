@@ -5,7 +5,7 @@ dos dois números e a divisão e a subtração do primeiro pelo segundo
 # include <stdio.h>
 # include <locale.h>
 
-int main (void) {
+int treze (void) {
     setlocale(LC_ALL, "Portuguese");
     int num1, num2, soma, multiplicacao, divisao, subtracao;
 

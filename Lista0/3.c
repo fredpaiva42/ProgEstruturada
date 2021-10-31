@@ -6,7 +6,7 @@ escreva: o valor de um quilowatt e o valor da conta de energia do usuário.
 
 # include <stdio.h>
 
-int main (void) {
+int tres (void) {
     float salarioMinimo, consumo, valorKw, conta;
 
     printf("Informe o valor do salario minimo: ");

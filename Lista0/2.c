@@ -4,7 +4,7 @@ quilowatts, e o preço equivalente a um quilowatt.*/
 
 # include <stdio.h>
 
-int main (void){
+int dois (void){
     float conta, consumoMensal, precoKw;
     char consumidor[60];
 

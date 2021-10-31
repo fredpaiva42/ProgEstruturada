@@ -5,7 +5,7 @@ e mostre a hora convertida em minutos e em segundos.
 
 # include <stdio.h>
 
-int main (void) {
+int quinto (void) {
     int horas, minutos, segundos;
 
     scanf("%d:%d", &horas, &minutos);

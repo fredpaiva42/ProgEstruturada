@@ -6,7 +6,7 @@ escrever quantos salários mínimos ganha o funcionário.
 # include <stdio.h>
 # include <locale.h>
 
-int main (void) {
+int onze (void) {
     setlocale(LC_ALL, "Portuguese");
     float salarioMinimo, salario, total;
 

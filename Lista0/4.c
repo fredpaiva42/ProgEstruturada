@@ -5,7 +5,7 @@ e mostre o salário final do funcionário.
  */
 #include <stdio.h>
 
-int main (void){
+int quatro (void){
     float salarioFixo, salarioReajustado;
     float valorVendas;
 

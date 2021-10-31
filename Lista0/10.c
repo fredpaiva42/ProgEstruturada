@@ -5,7 +5,7 @@ C = 5/9 (F-32)
 
 # include <stdio.h>
 
-int main (void) {
+int dez (void) {
     float celsius, fahrenheit;
 
     printf("Informe a temperatura em celsius:  ");

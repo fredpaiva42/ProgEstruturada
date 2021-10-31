@@ -4,7 +4,7 @@
 /*1. Faça um programa que leia a base e a altura de um retângulo e escreva o seu perímetro, a sua
 área e a sua diagonal*/
 
-int main (void) {
+int um (void) {
     float base, altura, perimetro, area, diagonal;
 
     printf("Digite a base e a altura do retangulo: ");

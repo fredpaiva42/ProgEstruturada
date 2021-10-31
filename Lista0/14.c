@@ -8,7 +8,7 @@ Exemplo: (Antes) A = 5 B = 8
 # include <stdio.h>
 # include <locale.h>
 
-int main (void) {
+int catorze (void) {
     setlocale(LC_ALL, "Portuguese");
     int a, b;
 

@@ -4,7 +4,7 @@ escreva a média ponderada dessas notas
  */
 #include <stdio.h>
 
-int main (void) {
+int oito (void) {
     float media, n1, n2, n3;
     int peso1, peso2, peso3;
 

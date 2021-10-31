@@ -6,7 +6,7 @@ escrever a idade dessa pessoa em anos, meses e semanas
 # include <stdio.h>
 # include <locale.h>
 
-int main (void) {
+int doze (void) {
     setlocale(LC_ALL, "Portuguese");
     int anoI, anoF, anos, meses, semanas;
 
