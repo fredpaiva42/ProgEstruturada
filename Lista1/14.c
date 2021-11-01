@@ -8,7 +8,7 @@ no mês, especificando também os valores diferenciados de cada condomínio.
 
 # include <stdio.h>
 
-int main (void) {
+int decimoQuarto (void) {
     float taxaBasica, coberturaI, coberturaCP, simplesCP, simplesI, total;
 
     printf("Informe taxa condominal basica:");
