@@ -5,7 +5,7 @@
  */
 
 # include <stdio.h>
-int main (void) {
+int ex3L2 (void) {
     int i, a, b, somaNum = 0;
 
     printf("Digite um valor para A e outro para B:");
