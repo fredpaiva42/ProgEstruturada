@@ -7,7 +7,7 @@
 
 # include <stdio.h>
 
-int main (void) {
+int aula3Ex7 (void) {
     double salarioI = 1000.0, salarioFinal;
     float taxaAumento = 0.001f;
     int anoI, anoF = 2021;
