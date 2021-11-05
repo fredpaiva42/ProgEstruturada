@@ -9,7 +9,7 @@
 
 int main (void) {
     double salarioI = 1000.0, salarioFinal;
-    float taxaAumento = 0.01f;
+    float taxaAumento = 0.001f;
     int anoI, anoF = 2021;
 
     for (anoI = 1995; anoI < anoF; anoI ++){
