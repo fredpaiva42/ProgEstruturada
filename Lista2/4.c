@@ -5,7 +5,7 @@
  */
 
 # include <stdio.h>
-int ex4L4 (void) {
+int ex4L2 (void) {
     int i, a, b, somaMultiplos = 0;
 
     printf("Digite um valor para A e outro para B:");
