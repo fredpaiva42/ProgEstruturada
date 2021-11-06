@@ -8,7 +8,7 @@ Obs: O final da leitura de dados é marcado por uma idade negativa*/
 
 # include <stdio.h>
 
-int main (void) {
+int ex10L2 (void) {
     int contadorM=0, contadorF=0, idade;
     float salario, mediaSalarioM = 0, mediaSalarioF = 0, maiorSalario = 0;
     char sexo;
