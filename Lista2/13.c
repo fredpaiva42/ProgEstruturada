@@ -9,7 +9,8 @@ existem preços repetidos
 
 int ex13L2(void) {
     char nomeProduto[21], produtoMaisCaro[22], str[] = "XXX";
-    float preco, maior = 0, length;
+    float preco, maior = 0;
+    int length;
 
     do{
         printf("nome produto e preco:");
