@@ -13,7 +13,7 @@ votos nulos e o nome do candidato que recebeu mais votos
 # include <stdio.h>
 # include <string.h>
 
-int main(void) {
+int ex17L2(void) {
     int voto, totalJoao = 0, totalJose = 0, totalMaria = 0, totalBranco = 0, totalNulo = 0;
     char vencedor[20], candidato1[] = "Joao",candidato2[] = "Jose", candidato3[] = "Maria";
     int length;
