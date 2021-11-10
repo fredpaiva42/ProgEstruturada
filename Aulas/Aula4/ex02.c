@@ -65,7 +65,7 @@ void operacao(int A, int B, char op){
     }
 }
 
-int main (void) {
+int funcaoCalculadora (void) {
     char op;
     int A,B;
 
