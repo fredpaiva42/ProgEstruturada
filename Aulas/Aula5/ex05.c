@@ -12,7 +12,7 @@ int Fibonacci(int N) {
     }
 }
 
-int main(void) {
+int ex05Aula5(void) {
     int n;
 
     printf("Digite o enesimo termo de Fibonacci que voce quer ver:");
