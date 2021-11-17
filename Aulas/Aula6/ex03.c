@@ -27,7 +27,7 @@ int comparaVetor(int *vA, int *vB){
     return diff;
 }
 
-int main(void) {
+int ex03Aula6(void) {
     int diferenca, vetA[TAM], vetB[TAM];
 
     preencheVetor(vetA, "A");
