@@ -8,12 +8,18 @@ produto mais caro.
 # include <string.h>
 
 int ex07Aula6(void) {
-    char codigo[3], produtoMaisCaro[4], str[] = "XXX";
+    char codigo[4], produtoMaisCaro[4], str[] = "XXX";
     float preco, maior = 0;
 
+    // scanf(" %[^\n]s", nomeString); isso permite pegar string com espaços
+
     do{
-        printf("nome produto e preco:");
-        scanf("%s %f", codigo, &preco);
+        printf("codigo do produto:");
+        scanf("%s", codigo);
+        if (strcmp(codigo, str) != 0) {
+            printf("preco do produto:");
+            scanf("%f", &preco);
+        }
 
         if (preco > maior){
             maior = preco;
