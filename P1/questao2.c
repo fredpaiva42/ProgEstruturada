@@ -121,7 +121,7 @@ int jubila(taluno *vet){
     return quant;
 }
 
-int main(void) {
+int questao2(void) {
     taluno vetor[N];
     preencherVetor(vetor);
     ordenaVetor(vetor);
