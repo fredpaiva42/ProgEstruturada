@@ -25,7 +25,7 @@ void preencherVetor(taluno *vet){
     }
 }
 
-void ordenaVetor(taluno * vet){
+void ordenaVetor(taluno *vet){
 
     int i, j, troca, menorPos;
     char semi, semj, anoi[3], anoj[3], insci[4], inscj[4];
@@ -80,7 +80,7 @@ void ordenaVetor(taluno * vet){
     }
 }
 
-void imprimirVetor(taluno * vet){
+void imprimirVetor(taluno *vet){
     for(int i =0;i<N;i++){
         printf("\nO nome do aluno(a): %s\n", vet[i].nome);
         printf("\nO CR do aluno(a): %f\n", vet[i].CR);
