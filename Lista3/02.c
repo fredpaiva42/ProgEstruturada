@@ -28,7 +28,7 @@ void maiorElemento(float *vetor, float *maior) {
     printf("%f", *maior);
 }
 
-int main(void) {
+int ex02Lista3(void) {
     float vetor[TAM], maior = 0;
 
     preencherVector(vetor);
