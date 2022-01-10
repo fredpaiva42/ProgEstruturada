@@ -40,7 +40,7 @@ void mediaSalarial (tFuncionario *vet, int tam){
 
 }
 
-int main(void) {
+int ex01Aula8(void) {
     int tam;
 
     printf("Quantos funcionarios a empresa possui?\n");
