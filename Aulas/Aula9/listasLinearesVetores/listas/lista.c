@@ -16,7 +16,7 @@ struct LISTA {
     int total;
 }; typedef struct LISTA lista;
 
-void imprimeLista(lista *L){
+void imprimeListaSimples(lista *L){
     int i;
     for(i=0; i < L->total; i++){
         printf("[%d] ", L -> dado[i]);
@@ -86,7 +86,7 @@ int listaBuscaSequencial(void) {
     }
 
     printf("\n\n Estado de L \n");
-    imprimeLista(&L);
+    imprimeListaSimples(&L);
 
     printf("\nDigite a quantidade de elementos para remover:");
     scanf("%d", &N);
